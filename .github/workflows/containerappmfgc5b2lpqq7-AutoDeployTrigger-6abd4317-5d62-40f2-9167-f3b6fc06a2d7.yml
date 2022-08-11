@@ -36,7 +36,7 @@ jobs:
         with:
           push: true
           tags: zuhacr.azurecr.io/containerappmfgc5b2lpqq7:${{ github.sha }}
-          file: ./Dockerfile
+          file: sampleapp/app/Dockerfile
           context: ./
 
 
